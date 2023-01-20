@@ -1,16 +1,22 @@
 # Terratest with AWS 
 
-## Prerequisite for terraform
+This Code will create an ec2 instnace behind the application loadbalancer in existing VPC.
 
-### Update terraform.tfvars accordingly
+## Do the follwing to Run the Terratest on AWS
 
-1. Run the Following in main directory just to verify the terraform code
+1. Run and configure AWS CLI
+```
+aws configure
+
+2. Update terraform.tfvars accordingly
+
+3. Run the Following in main directory just to verify the terraform code
 
     ```bash
     terraform init
     terraform plan
     
-2. To configure Terratest dependencies:
+4. To configure Terratest dependencies:
 
     ```bash
     cd test
@@ -18,7 +24,7 @@
     go mod tidy
     ```
 
-2. To run the tests:
+5. To run the tests:
 
     ```bash
     go test -v -timeout 30m
