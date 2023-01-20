@@ -7,7 +7,7 @@ This Code will create an ec2 instnace behind the application loadbalancer in exi
 1. Run and configure AWS CLI
 ```
 aws configure
-
+```
 2. Update terraform.tfvars accordingly
 
 3. Run the Following in main directory just to verify the terraform code
