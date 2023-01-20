@@ -4,7 +4,7 @@
 
     ```bash
     cd test
-    go mod init github.com/ahmadqayyum/terraform-repo-public
+    go mod init github.com/ahmadqayyum/terraform-terratest-aws
     go mod tidy
     ```
 
