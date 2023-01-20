@@ -1,6 +1,6 @@
 # Terratest with AWS 
 
-This Code will create an ec2 instnace behind the application loadbalancer in existing VPC.
+This Code will create an ec2 instnace behind the application loadbalancer in existing VPC and will run Terratest.
 
 ## Do the follwing to Run the Terratest on AWS
 
