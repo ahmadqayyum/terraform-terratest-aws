@@ -1,6 +1,16 @@
-# Run Terratest with few steps...
+# Terratest with AWS 
 
-1. To configure dependencies:
+## Prerequisite for terraform
+
+### Update terraform.tfvars accordingly
+
+1. Run the Following in main directory just to verify the terraform code
+
+    ```bash
+    terraform init
+    terraform plan
+    
+2. To configure Terratest dependencies:
 
     ```bash
     cd test
