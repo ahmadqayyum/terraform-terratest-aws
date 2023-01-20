@@ -5,7 +5,7 @@ import (
 	"github.com/gruntwork-io/terratest/modules/terraform"
 )
 
-func TestTerraformAwsHelloWorldExample(t *testing.T) {
+func TestTerraformAws(t *testing.T) {
 	t.Parallel()
 
 	/*Construct the terraform options with default retryable errors to handle the most common retryable errors in terraform testing. */
