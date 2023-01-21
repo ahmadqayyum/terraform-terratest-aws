@@ -1,4 +1,14 @@
 terraform {
+
+  cloud {
+    organization = "learn-with-ahmad"
+
+    workspaces {
+      name = "terraform-terratest-aws"
+    }
+  }
+
+
   required_providers {
     aws = {
       source  = "hashicorp/aws"
